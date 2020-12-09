@@ -122,6 +122,9 @@ Below is an example on how the graph may look:
 
 
 
+![image](https://user-images.githubusercontent.com/73948055/101584160-015d1380-39ab-11eb-858d-51aaccd56081.png)
+
+
 
 
 
