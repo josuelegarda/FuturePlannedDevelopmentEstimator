@@ -54,7 +54,10 @@ $ pip install -r requirements.txt
 
 ## How to use the program
 First, as stated above make sure you have a csv file with a column, Office Space in (sq. ft.) and Number of Employees per 1,000 Sq. Ft..
-Make sure none of these numbers have commas in it because it can interrupt with the datatypes. 
+Make sure none of these numbers have commas in it because it can interrupt with the datatypes.
+Below is an example on how it should look:
+![image](https://user-images.githubusercontent.com/73948055/101570758-13d44e80-39a5-11eb-8d5e-692d9cf89663.png)
+
 
 
 Now, you have to make sure you download the packages needed. For this program you will need: pandas, numpy, math, and matplotlib. 
