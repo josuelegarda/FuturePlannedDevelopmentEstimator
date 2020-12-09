@@ -68,43 +68,43 @@ When you enter for the first input make sure you input EXACT name of the csv you
 For the next calcualtions you will need to do 1 by 1 to get information about your data
 Below you will find the functions already made to help with calculations MAKE SURE you follow these step by step
 
-* Average office building space
+* Average office building space:
 avg_office_building_space()
 
-*  Number of employees per building
+*  Number of employees per building:
 num_employees_per_building()
 
-* Average number of employees per building.
+* Average number of employees per building:
 avg_num_employees_per_building()
 
-* Number of person-trips which use auto mode 
+* Number of person-trips which use auto mode: 
 num_persontrip_automode()
 
-* Total number of person-trips use auto mode 
+* Total number of person-trips use auto mode: 
 tot_num_persontrip_automode()
 
-* Number of person-trips bus mode 
+* Number of person-trips bus mode:
 num_persontrip_busmode()
 
-* Total number of person-trips bus mode 
+* Total number of person-trips bus mode: 
 tot_num_persontrip_busmode()
 
-* Number of person-trips subway mode 
+* Number of person-trips subway mode: 
 num_persontrip_subwaymode()
 
-* Total number of person-trips subway mode 
+* Total number of person-trips subway mode: 
 tot_num_persontrip_subwaymode()
 
-* Number of person-trips rail mode 
+* Number of person-trips rail mode: 
 num_persontrip_railmode()
 
-* Total number of person-trips rail mode 
+* Total number of person-trips rail mode: 
 tot_num_persontrip_railmode()
 
-* Number vehicle-trips per building (auto + bus)
+* Number vehicle-trips per building (auto + bus):
 num_vehicletrip_per_building_autobus_mode()
 
-* Vehicle-trips per building (auto + bus)
+* Vehicle-trips per building (auto + bus):
 vehicletrip_per_building_autobus_mode()
 
 After all of these calculations were made, now time to plot: 
