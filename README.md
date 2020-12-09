@@ -68,13 +68,13 @@ When you enter for the first input make sure you input EXACT name of the csv you
 For the next calcualtions you will need to do 1 by 1 to get information about your data
 Below you will find the functions already made to help with calculations MAKE SURE you follow these step by step
 
-* 1- Average office building space
+* Average office building space
 avg_office_building_space()
 
-* 2- Number of employees per building
+*  Number of employees per building
 num_employees_per_building()
 
-* 3- Average number of employees per building.
+* Average number of employees per building.
 avg_num_employees_per_building()
 
 * Number of person-trips which use auto mode 
