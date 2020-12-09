@@ -130,6 +130,21 @@ Below is an example on how the graph may look:
 
 
 
+Now, a function was made to help find the slope and the y intercept of the graph to help estimate the number
+of for the input building space (sq. ft.)
+To call the function use: best_fit_slope_and_intercept(x,y)
+
+
+
+
+Lastly, now that you have m as slope and b as y intercept, another function was made to find the final 
+number of vehicle-trips for the input building space (sq. ft.)
+To call the function use: 
+num_vehicletrip_office_build()
+
+
+
+
 
 
 
