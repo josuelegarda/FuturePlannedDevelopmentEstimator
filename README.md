@@ -118,6 +118,8 @@ After all of these calculations were made, now time to plot:
 If you are using Jupyter Notebook use:
 %matplotlib inline
 
+Below is an example on how the graph may look: 
+
 
 
 
