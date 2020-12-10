@@ -20,12 +20,6 @@ Inputs:
 * The building space (sq. ft.) to estimate how many vehicle-trips can exist in office building.
 
 Outputs:
-* Average office building space
-* Number of employees per building
-* Total number of person-trips which use automobiles
-* Total number of person-trips which use subway
-* Total number of person-trips which use rails like the (LIRR)
-* Vehicle trips per building
 * A plot of with regression line office building space vs the total number of vehicle trips
 * The number of vehicle-trips for the input building space (sq. ft.)
 
@@ -64,59 +58,7 @@ Below is an example on how it should look:
 
 
 
-Now, you have to make sure you download the packages needed. For this program you will need: pandas, numpy, math, and matplotlib. 
-So make sure you have these downloaded before starting. 
 
-When you run the code it will ask you for 2 inputs: 1. Enter the name of the csv file, Example: filename.csv:
-2. Enter the building space in (sq. ft.) to estimate vehicle-trips for that office building (DON'T ADD COMMAS): 
-Again don't add commas here either.
-When you enter for the first input make sure you input EXACT name of the csv you are using and make sure you can access it.
-
-For the next calcualtions you will need to do 1 by 1 to get information about your data
-Below you will find the functions already made to help with calculations MAKE SURE you follow these step by step
-
-* Average office building space:
-avg_office_building_space()
-
-*  Number of employees per building:
-num_employees_per_building()
-
-* Average number of employees per building:
-avg_num_employees_per_building()
-
-* Number of person-trips which use auto mode: 
-num_persontrip_automode()
-
-* Total number of person-trips use auto mode: 
-tot_num_persontrip_automode()
-
-* Number of person-trips bus mode:
-num_persontrip_busmode()
-
-* Total number of person-trips bus mode: 
-tot_num_persontrip_busmode()
-
-* Number of person-trips subway mode: 
-num_persontrip_subwaymode()
-
-* Total number of person-trips subway mode: 
-tot_num_persontrip_subwaymode()
-
-* Number of person-trips rail mode: 
-num_persontrip_railmode()
-
-* Total number of person-trips rail mode: 
-tot_num_persontrip_railmode()
-
-* Number vehicle-trips per building (auto + bus):
-num_vehicletrip_per_building_autobus_mode()
-
-* Vehicle-trips per building (auto + bus):
-vehicletrip_per_building_autobus_mode()
-
-After all of these calculations were made, now time to plot: 
-If you are using Jupyter Notebook use:
-%matplotlib inline
 
 Below is an example on how the graph may look: 
 
@@ -129,18 +71,6 @@ Below is an example on how the graph may look:
 
 
 
-
-Now, a function was made to help find the slope and the y intercept of the graph to help estimate the number
-of for the input building space (sq. ft.)
-To call the function use: best_fit_slope_and_intercept(x,y)
-
-
-
-
-Lastly, now that you have m as slope and b as y intercept, another function was made to find the final 
-number of vehicle-trips for the input building space (sq. ft.)
-To call the function use: 
-num_vehicletrip_office_build()
 
 
 
