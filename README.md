@@ -1,15 +1,12 @@
-# CE-UY 3013 Project Template
+# FuturePlannedDevelopmentEstimator
 
-*This file presents a description of the final project. For your submission,*
-*this file must serve as the documentation of your project, how your program*
-*should be used along with examples.*
 
 This program estimates future planned developments. To explain it further this program estimates the number of vehicle-trips for a planned office building of a input sq. ft. desired by the user by using the info of the list with the office spaces around that development. Its basically like a trip assessment for a development. 
 
 Assumptions:
 * The auto mode is 0.1, bus mode is 0.15, subway mode is 0.65, rail mode is 0.1
-* Make sure that there is NO commas in the numbers in the csv file. The commas can interfere with data types. 
-
+* Make sure that there is NO commas in the numbers in the csv file. The commas can interfere with data types 
+* Only types of transportation considered are: auto, bus, railway, and subway
 
 
 
