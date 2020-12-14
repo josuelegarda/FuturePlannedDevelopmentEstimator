@@ -45,6 +45,7 @@ $ pip install -r requirements.txt
 
 ## How to use the program
 First, as stated above make sure you have a csv file with a column, Office Space in (sq. ft.) and Number of Employees per 1,000 Sq. Ft..
+Make sure you import the csv in any program that you are using so it can be called by read.csv.
 Make sure none of these numbers have commas in it because it can interrupt with the datatypes.
 Below is an example on how it should look:
 
@@ -57,6 +58,36 @@ Below is an example on how it should look:
 
 
 
+
+
+
+When first running the code the code will prompt you:
+csvname = input("Enter the name of the csv file, Example: filename.csv:")
+Here you input Exactly including the .csv of the name of the csv that you made
+
+
+Next, it will ask you to input the building space in (sq. ft.) to estimate vehicle-trips for that office building:
+build_space_est = input("Enter the building space in (sq. ft.) to estimate vehicle-trips for that office building (DON'T ADD COMMAS):")
+Make sure to add the number without any commas so it doesn't interrupt with the algorithm. 
+
+
+
+
+Then to call the function made do this:
+a=num_vehicletrip_office_build()
+This will perform the calculations for the csv file that you entered to then calculate The Number of vehicle-trips for a planned office building of certain square feet. 
+
+
+
+
+
+
+
+
+
+
+
+This program also graphs the data
 Below is an example on how the graph may look: 
 
 
