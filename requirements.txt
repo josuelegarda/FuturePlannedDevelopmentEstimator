@@ -1,7 +1,4 @@
-numpy==1.18.5
+numpy==1.18.4
 pandas==1.0.5
-math
-matplotlib.pyplot
-statistics
-scipy.stats
-from statistics import mean
+scipy==1.2.0
+matplotlib==3.0.1
